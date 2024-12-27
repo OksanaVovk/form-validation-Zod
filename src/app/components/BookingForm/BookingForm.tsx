@@ -27,8 +27,8 @@ export default function BookingForm() {
   }, []);
 
 
-  const onSubmit = async (data) => {
-    alert("Booking successful!")
+  const onSubmit =  () => {
+   alert("Booking successful!")
   }
 
   return (

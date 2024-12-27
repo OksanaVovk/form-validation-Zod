@@ -53,7 +53,7 @@ describe("BookingForm Component", () => {
       "john.doe@example.com"
     );
     await user.type(screen.getByLabelText(/Event Name/i), "React Workshop");
-    await user.type(screen.getByLabelText(/Event Date/i), "2024-12-15");
+    await user.type(screen.getByLabelText(/Event Date/i), "2035-12-15");
     await user.type(screen.getByLabelText(/Number of Guests/i), "3");
 
     await waitFor(() => screen.getByLabelText(/Time Slot/i));
@@ -83,7 +83,7 @@ describe("BookingForm Component", () => {
       "john.doe@example.com"
     );
     await user.type(screen.getByLabelText(/Event Name/i), "React Workshop");
-    await user.type(screen.getByLabelText(/Event Date/i), "2024-12-15");
+    await user.type(screen.getByLabelText(/Event Date/i), "2035-12-15");
     await user.type(screen.getByLabelText(/Number of Guests/i), "3");
 
     await user.type(
